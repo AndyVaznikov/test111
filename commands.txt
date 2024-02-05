@@ -4,6 +4,9 @@ git status - проверка файлов в папке
 git add . - отслеживать файлы
 git commit -m "комментарий" - отправить на локальный сервер
 git push - отправить на GitHub
-git branch - каналы
-git branch ch1 - создать канал
-git checkout ch1 - перейти на канал
+git branch - все ветки
+git branch ch1 - создать ветку
+git checkout ch1 - перейти на ветку
+
+git push --set-upstream origin ch1 - флаг для первой отправки с новосозданной ветки
+
